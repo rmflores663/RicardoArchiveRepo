@@ -1,0 +1,24 @@
+class level2 {
+  ArrayList<centipede> Centipedes;
+  level2() {
+    Centipedes = new ArrayList<centipede>();
+    for (int i = 0; i < 10; i++) {
+      Centipedes.add(new centipede(width/2+50, i*50+50, 2, false));
+      Centipedes.add(new centipede(width/2-50, i*50+50, 2, false));
+    }
+    
+  }
+  void draw() {
+    background(0);
+    for (centipede centipedeDraw : Centipedes) {
+      centipedeDraw.draw();
+      centipedeDraw.update();
+      centipedeDraw.Die(mouseX, mouseY);
+    }
+    for (int i = 0; i < Centipedes.size(); i++){
+      
+    }
+  }
+  void keyReleased() {
+  }
+}

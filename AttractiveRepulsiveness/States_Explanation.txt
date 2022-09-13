@@ -1,0 +1,29 @@
+Log Line: You and a friend are stuck in a magnetic realm where one of you are the positive side while the other is the negative. 
+You have to work together to get out of the realm and get back to normal reality. 
+
+Objective:
+Collect all collectibles while using the unique properties of the platform and characters to travel to the exit.
+
+
+State 0: Title Screen 
+Condition: Both player 1 and 2 are ready
+State 1: Help Screen
+Condition: Both player 1 and 2 are ready
+State 2: Level 1
+Condition: If both player reach exit, move to level 2
+Fail Condition: If either 1 fail, move to lose Screen
+State 3: Level 2
+Condition: If both player reach exit, move to level 3
+Fail Condition: If either 1 fail, move to lose Screen
+State 3: Level 3
+Condition: If both player reach exit, move to Win Screen
+Fail Condition: If either 1 fail, move to lose Screen
+State 4: Win Screen
+Condition: Certain time pass
+State 5: Lose Screen
+Condition: Time pass, move to title screen
+State 5: Credit Screen
+Condition: Move to title Screen
+
+
+
