@@ -31,28 +31,28 @@ class Tracker {
       Blue_down = false;
     }
     if (Red_right) {
-      q = 9;
+      q = 6;
     }
     if (Red_left) {
-      q = -9;
+      q = -6;
     }
     if (Red_up) {
-      a = -9;
+      a = -6;
     }
     if (Red_down) {
-      a = 9;
+      a = 6;
     }
     if (Blue_right) {
-      u = 12;
+      u = 7;
     }
     if (Blue_left) {
-      u = -12;
+      u = -7;
     } 
     if (Blue_up) {
-      k = -12;
+      k = -7;
     }
     if (Blue_down) {
-      k = 12;
+      k = 7;
     } 
     Redx +=q;
     Redy +=a;

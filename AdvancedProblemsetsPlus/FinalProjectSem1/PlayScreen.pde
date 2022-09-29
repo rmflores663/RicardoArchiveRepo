@@ -49,13 +49,13 @@ class PlayScreen {
   void draw() {
     image(playScreen, width/2, height/2, width, height);
 
-    OS.Lazer(LLocation11.x, LLocation11.y, LLocation21.x, LLocation21.y, 90);
+    //OS.Lazer(LLocation11.x, LLocation11.y, LLocation21.x, LLocation21.y, 90);
     if(P1.location.x > width/4+width/8-100 && P1.location.x < width/4-width/8+100
     && P1.location.y > LLocation11.y-75 && P1.location.y < LLocation11.y+75){
       lose();
     }
     
-    OS.Lazer(LLocation12.x, LLocation12.y, LLocation22.x, LLocation22.y, 90);
+    //OS.Lazer(LLocation12.x, LLocation12.y, LLocation22.x, LLocation22.y, 90);
     if(P1.location.x > width*3/4+width/8-100 && P1.location.x < width*3/4-width/8+100
     && P1.location.y > LLocation12.y-75 && P1.location.y < LLocation12.y+75){
       lose();

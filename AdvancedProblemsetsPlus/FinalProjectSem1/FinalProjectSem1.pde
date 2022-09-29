@@ -41,7 +41,7 @@ EndScreens end;
 
 void setup() {
 
-  fullScreen(P2D);
+  size(1920, 1080, P2D);
   rectMode(CENTER);
   imageMode(CENTER);
   textAlign(CENTER, CENTER);
@@ -63,10 +63,12 @@ void setup() {
   WinSong = minim.loadFile("WinSong.wav");
 }
 void draw() {
-  end.resetTimer();
+  //end.resetTimer();
   if (state == 0) {
     PS.reset();
     SS.draw();
+    LoseSong.pause();
+    WinSong.pause();
     if (!StartSong.isPlaying()) {
       StartSong.rewind();
     }
@@ -83,7 +85,7 @@ void draw() {
   } else if (state == 2) {
     PlaySong.pause();
     PS.reset();
-    end.resetTimer();
+    //end.resetTimer();
     if (!LoseSong.isPlaying()) {
       LoseSong.rewind();
     }
@@ -95,7 +97,7 @@ void draw() {
       WinSong.rewind();
     }
     WinSong.play();
-    end.resetTimer();
+    //end.resetTimer();
     end.WinScreen();
   } else if (state == 4) {
     end.CreditsScreen();
@@ -107,9 +109,9 @@ void keyPressed() {
   } else if (state == 1) {
     PS.keyPressed();
   } else if (state == 2) {
-    background(0, 255, 0);
+    state = 0;
   } else if (state == 3) {
-    background(255, 0, 0);
+    state = 0;
   } else if (state == 4) {
     background(128);
   } else if (state == 5) {

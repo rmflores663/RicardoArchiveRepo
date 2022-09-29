@@ -3,12 +3,14 @@ Start_Game SG1;
 Limitations L1;
 End E1;
 Win W1;
-int Redx, Redy, BlueX, BlueY, u, k, q, a, w, h, BossX, BossY, O, U, Verticle, Horizontal, state, Add1, Add2, Rectx, Recty, Rectw, Recth, qAdd, aAdd, Counter, Pattern, Score, Px, Py, Points, n, g, l, p, m, e, rockx, rocky, rockplus, playerX, playerY, playerXmove, playerYmove, boxstate, TimerX, TimerY, TimerW, TimerH, Ts;
+float Redx, Redy, BlueX, BlueY, u, k, q, a, w, h, BossX, BossY, O, U, Verticle, Horizontal, state, Add1, Add2, Rectx, Recty, Rectw, Recth, qAdd, aAdd, Counter, Pattern, Px, Py, n, g, l, p, m, e, rockx, rocky, rockplus, playerX, playerY, playerXmove, playerYmove, boxstate, TimerX, TimerY, TimerW, TimerH, Ts;
+int  Score, Points;
 boolean Red_down, Red_up, Red_left, Red_right, Blue_down, Blue_up, Blue_left, Blue_right, Boss_Up, Boss_Down, Boss_Left, Boss_Right, projectiles, StartScreen, Game, GameOver, GameOverWin, BOSS, PowerUp, Mose, Mouse, Rockup, Rockdown, playerUp, playerDown, playerLeft, playerRight, tooFarX, tooFarY, Double_points, Double_points2;
 PImage red, blue, Eagle, Boss, Box, TwoX, Plus2, Startscreen, StartRock, game, lose, win, in;
 PFont font;
 void setup() {
-  fullScreen();
+  //fullScreen();
+  size(1920, 1080, P2D);
   A1 = new Activate();
   SG1 = new Start_Game();
   L1 = new Limitations();

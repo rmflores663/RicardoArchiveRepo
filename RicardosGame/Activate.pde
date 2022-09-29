@@ -4,7 +4,7 @@ class Activate {
   void draw() {
    TimerX = 650;
    TimerY = 0;
-   TimerW = 670;
+   TimerW = 718;
    TimerH = 50;
     Double_points = false;
     PowerUp = false;
@@ -32,10 +32,10 @@ class Activate {
      Rockdown = false;
     }
     if(Rockup){
-     rockplus = -3;
+     rockplus = -2;
     }
     if(Rockdown){
-     rockplus = 3; 
+     rockplus = 2; 
     }
     if (mousePressed == true &&(mouseX>1250 &&(mouseX < 1700 &&(mouseY > 80 &&(mouseY > 100))))) {
     rockx = 1125;

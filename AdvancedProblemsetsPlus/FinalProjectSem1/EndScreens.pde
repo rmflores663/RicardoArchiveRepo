@@ -1,29 +1,29 @@
 class EndScreens {
-  float timer;
+  //float timer;
   int Width = width-100;
   EndScreens() {
   }
-  void resetTimer() {
-    if (timer > 8) {
-      timer = 0;
-    }
-  }
+  //void resetTimer() {
+  //  if (timer > 8) {
+  //    timer = 0;
+  //  }
+  //}
   void resetCredits() {
     Width = width-100;
   }
   void WinScreen() {
     image(winScreen, width/2, height/2, width, height);
-    timer += .01;
-    if (timer >= 5.12) {
-      state = 4;
-    }
+    //timer += .01;
+    //if (timer >= 5.12) {
+    //  state = 4;
+    //}
   }
   void LoseScreen() {
     image(loseScreen, width/2, height/2, width, height);
-    timer += .01;
-    if (timer >= 5.8) {
-      state = 1;
-    }
+    //timer += .01;
+    //if (timer >= 5.8) {
+    //  state = 1;
+    //}
   }
   void CreditsScreen() {
     background(0);

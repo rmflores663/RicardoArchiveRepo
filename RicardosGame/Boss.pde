@@ -20,16 +20,16 @@ class Boss {
       Boss_Up =  true;
     }
     if (Boss_Right) {
-      O = 20;
+      O = 10;
     }
     if (Boss_Left) {
-      O = -20;
+      O = -10;
     }
     if (Boss_Down) {
-      U = 20;
+      U = 10;
     }
     if (Boss_Up) {
-      U = -20;
+      U = -10;
     }
   }
 }
