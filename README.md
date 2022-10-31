@@ -11,5 +11,5 @@ Duo project, tasked to re-create another retro game. <br> Game would be displaye
 Homework and assignments given through the year to <br> sharpen our knoledge in java programming.
 ## [Gaming Two Final Group Project 2021](https://github.com/rmflores663/RicardoArchiveRepo/tree/main/AttractiveRepulsiveness)
 Final for class, Group project which tasked us to design <br> and program a game with 3 levels that was also <br> multiplayer. 
-## [Game Programming Unity Projects 2022](google.com)
-College projects assigned to teach us the basics of unity
+## [Game Programming Unity Projects 2022](https://github.com/rmflores663/GameProgramming)
+College projects assigned to teach us the basics of unity <br> 2 projects are visable from the home screen while 1 is not
