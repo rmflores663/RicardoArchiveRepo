@@ -2,7 +2,7 @@
 In this Repoitory, you will find projects and excersises  <br>I have completed over the course of my education.
 
 ## [FIRST Power Up 2018 Game](https://github.com/rmflores663/RicardoArchiveRepo/tree/main/RicardosGame)
-First game coded. Uses Processing as well as android <br> mode library since game was displayed on a tablet.
+First game coded. Uses Processing along with an android <br> mode library since game was displayed on a tablet.
 ## [Gaming Two Class Warm-up 2019](https://github.com/rmflores663/RicardoArchiveRepo/tree/main/GamingII_WarmUpExercise)
 Warmup assignment for beginning of class, tasked to <br> choose a retro game and re-make it. Playable on <br> desktop and tablet.
 ## [Gaming Two Group Re-Creation Project 2020](https://github.com/rmflores663/RicardoArchiveRepo/tree/main/Thecentipedere-creation)
